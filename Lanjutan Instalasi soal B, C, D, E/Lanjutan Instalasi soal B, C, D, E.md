@@ -1,144 +1,84 @@
-## ** INSTALLASI ACTIVE DIRECTORY DOMAIN SERVER**
+# Instalasi Active Directory Domain Services
 
-```markdown
 Ubah nama computer di windows powershell dengan mengetik > “rename-computer -Newname Server2022”
-```
+![A1](assets/Picture1.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143059461-27fbb6fe-a773-4b40-8136-cd281e80ba8f.png)
+Kemudian masuk ke server manager pilih menu manage
+![A1](assets/Picture2.png)
 
-```markdown
-Kemudian masuk ke server manager pilih menu manage 
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143059523-1f3e50df-2976-4e3d-8790-4eb182f7e93f.png)
-
-```markdown
 Kemudian pilih Add Roles and Features dan next
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143059578-6dfe76da-a637-43cc-8c1c-bd8dcb62cc77.png)
+![A1](assets/Picture3.png)
 
-```markdown
 Pilih Role-Based or feature-based installation kemudian next
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143059675-9bd05beb-29e1-43d4-8e0e-f596b295eec0.png)
-
-```markdown
+![A1](assets/Picture4.png)
 Setelah itu pilih select a server from the server pool
+
+![A1](assets/Picture5.png)
 Lalu pilih active directory domain server
 
-```
+![A1](assets/Picture6.png)
+Kemudain klik add features and next
 
-![image](https://user-images.githubusercontent.com/93044506/143059758-d353e507-9588-46c4-ab7f-9583ac89e917.png)
-```markdown
-Kemudain klik add features
-```
+![A1](assets/Picture7.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143061716-22dcf30f-f7e3-4077-9a5c-094dc81dbc25.png)
-
-```markdown
+![A1](assets/Picture8.png)
 Kemudian ke features lalu centang Group Policy Management dan next
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143061818-9cd57c94-9c26-4879-b9d7-4f48dc1ed722.png)
-```markdown
-Kemudian install
-```
+![A1](assets/Picture9.png)
+Install
 
-![image](https://user-images.githubusercontent.com/93044506/143062033-48f55a56-5683-496a-828c-0e48d1f71fc8.png)
+![A1](assets/Picture10.png)
 
-```markdown
+![A1](assets/Picture11.png)
 Setting ip static di cmd menggunakan command> sconfig
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143062121-6c661b27-d1e0-47bf-84ba-2286e2a5808c.png)
+![A1](assets/Picture12.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143062191-9574d740-468e-4fe9-80d8-31d83a1e2bb7.png)
+Pilih 8
+![A1](assets/Picture13.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143062258-876663e1-e604-47f4-8176-1ac1179878d0.png)
+Pilih 1
+![A1](assets/Picture14.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143062317-f459c69b-b8b6-4f11-99cc-48d077497bfd.png)
-
-![image](https://user-images.githubusercontent.com/93044506/143062350-13c88e4a-417e-4aa7-a4e7-7d4e3f1b21ec.png)
-
-
-#### **INSTALLASI DNS**
-
-```markdown
-Kemudian install DNS server sama seperti menginstal domain 
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143062424-4881d36a-904f-4888-b0a9-811aaecfa241.png)
-
-#### **INSTALLASI NET FRAMEWORK 3.5**
-
-```markdown
-Setelah selesai install NET Framework 3.5
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143062534-2fb31a21-4d13-496e-a233-e42793e8b288.png)
-
-![image](https://user-images.githubusercontent.com/93044506/143062785-3b29e92d-5050-4c32-9edc-e22daebb3eb9.png)
+Setting IP menjadi 192.168.1.10
+![A1](assets/Picture15.png)
 
 
+# INSTALLASI DNS
+Kemudian install DNS server sama seperti menginstal domain
+16
+![A1](assets/Picture16.png)
+17
+![A1](assets/Picture17.png)
+18
+![A1](assets/Picture18.png)
 
-#### **PROMOTE SERVER TO A DOMAIN**
+# INSTALLASI NET FRAMEWORK 3.5
 
-```markdown
+![A1](assets/Picture19.png)
+
+![A1](assets/Picture20.png)
+
+![A1](assets/Picture21.png)
+
+# Promote Server to a Domain Controller
 Kemudian Promote Server to a Domain Controller dengan menekan tanda seru
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143062854-2826b680-20a3-42df-9be8-e54810cb192b.png)
-
-```markdown
+![A1](assets/Picture22.png)
 Pilih add new forest dan beri nama
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143063016-99949d95-e6e4-4c0d-b923-20094fd232e9.png)
+![A1](assets/Picture23.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143063113-b4d72bd8-fbf8-4920-a27e-a0279b100b1f.png)
+![A1](assets/Picture24.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143063155-ca178616-783e-4580-a21c-5ea99bec1d58.png)
+![A1](assets/Picture25.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143063216-4a936df2-7d5c-4528-b722-bd0e3e1795f0.png)
+![A1](assets/Picture26.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143063279-d24a662b-9208-4493-90cc-34f90232d09b.png)
+![A1](assets/Picture27.png)
 
-![image](https://user-images.githubusercontent.com/93044506/143063326-372e609f-8229-4e02-a713-c6d819c4bf26.png)
+![A1](assets/Picture28.png)
 
-```markdown
-Kemudian Install
-```
 
-![image](https://user-images.githubusercontent.com/93044506/143063382-f687ead4-4a28-4ccd-b308-e42f93b27d06.png)
-
-```markdown
-Kemudian Close setelah install selesai
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143063425-2d93623e-8f29-401c-a836-dffc52f428d6.png)
-
-```markdown
-Setelah close WS akan restart dan akan berganti nama 
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143063487-9c3aaf91-2f75-427e-8446-a7abc2809022.png)
-
-```markdown
-Lakukan pengecekan konfigurasi pada command prompt untuk mengetahui kesuksesan installasi
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143063745-f64fbb44-5d6b-4a8f-939c-1525d3fd2eb6.png)
-
-```markdown
-Kemudian cek ip address di network
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143063854-47fb5c94-8ee6-42c2-b951-a2c15f19cb68.png)
-
-```markdown
-Kemudian ubah menjadi ip address yang di atas
-```
-
-![image](https://user-images.githubusercontent.com/93044506/143063913-73ebb33e-14a6-4a50-832c-15a5bec3844a.png)
