@@ -1,7 +1,7 @@
 # STEPS OF WINDOWS SERVER 2022 INSTALLATION
 ## By Nur Wulan Maudini - 1202190002 - IT-02-01
 
-### _______________________
+#
 Download ISO Installer windows server 2022 [Click here.](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-server-2022)
 #
 ##
