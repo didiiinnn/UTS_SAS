@@ -6,7 +6,7 @@ Download ISO Installer windows server 2022 [Click here.](https://www.microsoft.c
 #
 ##
 ## Number 1. Open Virtual Box and go to the “Machine - New” menu
-1. ![A1](asset/Picture1.png)
+1. ![A1](assets/Picture1.png)
 2. 
 Enter the name of the machine and type of system to use
 2. 
