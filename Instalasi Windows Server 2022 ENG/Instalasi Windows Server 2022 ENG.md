@@ -17,22 +17,31 @@ Download ISO Installer windows server 2022 [Click here.](https://www.microsoft.c
 - ## Define RAM
 - ## Create the disk definining type and size
 ![A1](assets/Picture3.png)
+
 ![A1](assets/Picture4.png)
+
 ![A1](assets/Picture5.png)
+
 ![A1](assets/Picture6.png)
+
 ![A1](assets/Picture7.png)
 #
 ## Number 4. 
 - ## Go to the machine configuration and in the “Network” section set “Bridge adapter”
 ![A1](assets/Picture8.png)
+
 ![A1](assets/Picture9.png)
 #
 ## Number 5.
 - ## Click on “Start” and select the ISO downloaded
 ![A1](assets/Picture10.png)
+
 ![A1](assets/Picture11.png)
+
 ![A1](assets/Picture12.png)
+
 ![A1](assets/Picture13.png)
+
 #
 ## Number 6.
 - ## Click on “Start” and the Windows Server 2022 installation wizard will load
@@ -47,13 +56,17 @@ Download ISO Installer windows server 2022 [Click here.](https://www.microsoft.c
 - ## Enter the license (if you have one) and then define the edition to use
 - ## Accept the license and then proceed with the installation of Windows Server 2022
 ![A1](assets/Picture17.png)
+
 ![A1](assets/Picture18.png)
+
 ![A1](assets/Picture19.png)
 #
 ## Number 9. 
 - ## Custom: Install Windows only (advanced)
 ![A1](assets/Picture20.png)
+
 ![A1](assets/Picture21.png)
+
 ![A1](assets/Picture22.png)
 #
 ## Number 10. 
@@ -68,6 +81,7 @@ Download ISO Installer windows server 2022 [Click here.](https://www.microsoft.c
 - ## Access the menu “Input – Keyboard – Insert Ctrl + Alt + Del”
 - ## Enter the password created and wait for the configuration to load
 ![A1](assets/Picture25.png)
+
 ![A1](assets/Picture26.png)
 #
 ## Number 13. 
@@ -79,17 +93,24 @@ Download ISO Installer windows server 2022 [Click here.](https://www.microsoft.c
 - ## From the Explorer run this and follow the steps of the wizard
 - ## Reboot the machine
 ![A1](assets/Picture28.png)
+
 ![A1](assets/Picture29.png)
+
 ![A1](assets/Picture30.png)
+
 ![A1](assets/Picture31.png)
+
 ![A1](assets/Picture32.png)
 #
 ## Number 15. 
 - ## You can maximize the machine and it will be in full screen format
 - ## Run “winver” to validate the installed edition of Windows Server
 ![A1](assets/Picture33.png)
+
 ![A1](assets/Picture34.png)
+
 ![A1](assets/Picture35.png)
+
 ![A1](assets/Picture36.png)
 
 
